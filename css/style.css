@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.dates-form-container {
+    background-color: #34495E;
+    padding: 20px 100px;
+    margin: 0 auto 30px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#date-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#date-form > input {
+    padding: 10px 35px;
+    background-color: #D9D9D9;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+#date-form > input::placeholder {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#date-form > button {
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #27AE60;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    border: none;
+}
+
+
+.dates-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.dates-container > .date-item {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #34495E;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+
+ 
+
+
+
